@@ -17,7 +17,13 @@ void main() {
             ),
           ),
           child: const Center(
-            child: Text('Hello Erfan'),
+            child: Text(
+              'Hello Erfan',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 28,
+              ),
+            ),
           ),
         ),
       ),
