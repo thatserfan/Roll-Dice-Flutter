@@ -6,7 +6,12 @@ void main() {
     const MaterialApp(
       home: Scaffold(
         // backgroundColor: Color.fromARGB(255, 102, 18, 247),
-        body: GradientContainer(),
+        body: GradientContainer(
+          colors: [
+            Color.fromARGB(255, 28, 6, 107),
+            Color.fromARGB(255, 79, 15, 116),
+          ],
+        ),
       ),
     ),
   );
